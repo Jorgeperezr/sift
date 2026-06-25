@@ -1,0 +1,6 @@
+- id: sift
+  name: sift secret scan
+  description: Scan staged files for secrets before commit
+  entry: sift scan
+  language: python
+  types: [text]
